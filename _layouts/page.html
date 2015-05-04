@@ -1,8 +1,7 @@
 ---
+theme :
+  name : bootstrap-3
 layout: default
 ---
-<article id="page">
-	
-  {{ content }}
-
-</article>
+{% include JB/setup %}
+{% include themes/bootstrap-3/page.html %}
